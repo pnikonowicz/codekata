@@ -2,4 +2,4 @@ Before you begin this GemFire tutorial, you must complete the following prerequi
 
 * Create an account on https://network.tanzu.vmware.com/
 * Sign the EULA for GemFire at https://network.tanzu.vmware.com/products/pivotal-gemfire/
-* Copy your `Legacy API token` from: https://network.tanzu.vmware.com/users/dashboard/edit-profile
+* Copy your `Legacy API token` from: https://network.tanzu.vmware.com/users/dashboard/edit-profile as it will come in handy later
