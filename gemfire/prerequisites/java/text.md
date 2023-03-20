@@ -13,3 +13,12 @@ And set the JAVA_HOME environment variable
 ```plain
 export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64'
 ```{{exec}}
+
+Then verify everything looks ok
+```plain
+echo "verify java"
+java -version
+
+echo "verify JAVA_HOME"
+[[ ! -z "${JAVA_HOME}" ]] || echo "JAVA_HOME not set"
+```{{exec}}
