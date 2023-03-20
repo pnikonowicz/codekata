@@ -9,11 +9,13 @@
     "steps": [
       {
         "title": "Prerequisites: install java",
-        "text": "prerequisites/java/text.md"
+        "text": "prerequisites/java/text.md",
+        "verify": "prerequisites/java/verify.sh"
       },
       {
         "title": "Prerequisites: pivnet-cli",
-        "text": "prerequisites/pivnet-cli/text.md"
+        "text": "prerequisites/pivnet-cli/text.md",
+        "verify": "prerequisites/pivnet-cli/verify.sh"
       }
     ],
     "finish": {
