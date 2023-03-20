@@ -1,6 +1,0 @@
-{
-  "items": [
-    { "path": "install operator", "title": "Install or Uninstall the VMware GemFire Operator" },
-    { "path": "create cluster", "title": "Create or Delete a VMware GemFire Cluster" }
-  ]
-}
