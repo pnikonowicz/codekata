@@ -8,12 +8,24 @@
     },
     "steps": [
       {
+        "title": "Prerequisites: install java",
+        "text": "prerequisites/java/text.md"
+      }
+      {
         "title": "Prerequisites: pivnet-cli",
         "text": "prerequisites/pivnet-cli/text.md"
       },
       {
-        "title": "Prerequisites: install java",
-        "text": "prerequisites/java/text.md"
+        "title": "Prerequisites: downlaod gemfire",
+        "text": "prerequisites/download-gemfire/text.md"
+      },
+      {
+        "title": "Prerequisites: install gemfire",
+        "text": "prerequisites/install-gemfire/text.md"
+      },
+      {
+        "title": "start gemfire cluster",
+        "text": "start-gemfire/text.md"
       }
     ],
     "finish": {
