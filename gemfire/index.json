@@ -1,0 +1,28 @@
+{
+  "title": "Run Gemfire",
+  "description": "This scenario describes how to install and run VMware GemFire.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Prerequisites: pivnet-cli",
+        "text": "prerequisites/pivnet-cli/text.md",
+        "verify": "prerequisites/pivnet-cli/verify.sh"
+      },
+      {
+        "title": "Prerequisites: install java",
+        "text": "prerequisites/java/text.md",
+        "verify": "prerequisites/java/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
