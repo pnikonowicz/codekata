@@ -1,5 +1,6 @@
 {
   "items": [
-    { "path": "gemfire-4-k8s", "title": "install gemfore for kubernetes" }
+    { "path": "install operator", "title": "Install or Uninstall the VMware GemFire Operator" },
+    { "path": "create cluster", "title": "Create or Delete a VMware GemFire Cluster" }
   ]
 }
