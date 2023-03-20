@@ -15,5 +15,5 @@ mv vmware-gemfire-* gemfire
 And then test to make sure that we can access Gfsh. Gfsh is the main tool we will use to create members and add regions to our cluster. 
 
 ```plain
-./gemfire/bin/gfsh
+./gemfire/bin/gfsh -e help
 ```{{exec}}

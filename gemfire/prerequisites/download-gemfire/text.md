@@ -9,8 +9,8 @@ It is assumed that you have already done the following:
 
 With the `Legacy API token` we can login to TanzuNet using the pivnet-cli that we have already installed.
 
-Assign your token to the `TOKEN` envionment variable using:
-```bash
+Assign your token to the `TANZU_NET_TOKEN` envionment variable using:
+```
 export TANZU_NET_TOKEN="<YOUR_TOKEN>"
 ```
 
