@@ -1,6 +1,6 @@
 {
-  "title": "Run Gemfire with gfsh",
-  "description": "This scenario describes how to install and run VMware GemFire with gfsh.",
+  "title": "Intro to Gemfire with gfsh",
+  "description": "This scenario describes how to interact with VMware GemFire via gfsh.",
   "details": {
     "intro": {
       "text": "intro.md",
