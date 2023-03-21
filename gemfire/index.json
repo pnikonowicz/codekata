@@ -16,24 +16,28 @@
         "text": "prerequisites/pivnet-cli/text.md"
       },
       {
-        "title": "Prerequisites: downlaod gemfire",
+        "title": "Prerequisites: Download GemFire",
         "text": "prerequisites/download-gemfire/text.md"
       },
       {
-        "title": "Prerequisites: install gemfire",
+        "title": "Prerequisites: Install GemFire",
         "text": "prerequisites/install-gemfire/text.md"
       },
       {
-        "title": "start gemfire cluster",
+        "title": "Start GemFire cluster",
         "text": "start-gemfire/text.md"
       },
       {
-        "title": "create gemfire regions",
+        "title": "Create GemFire regions",
         "text": "create-regions/text.md"
       },
       {
-      "title": "add data to regions with gfsh",
+      "title": "Add data to regions with gfsh",
       "text": "add-data-to-regions-with-gfsh/text.md"
+      },
+      {
+        "title": "Add data to regions with client",
+        "text": "add-data-to-regions-with-client/text.md"
       }
     ],
     "assets": {

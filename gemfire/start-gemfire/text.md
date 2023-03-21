@@ -1,4 +1,4 @@
-# start gemfire
+# Start GemFire
 
 Now that GemFire is installed, we can create a cluster and do all kinds of things with it. 
 
@@ -14,7 +14,7 @@ And that's it! We have a running cluster.
 
 Let's make sure the cluster looks ok
 ```plain
-./gemfire/bin/gfsh -e 'connect --name=locator' -e 'list members'
+./gemfire/bin/gfsh -e 'connect' -e 'list members'
 ```{{exec}}
 
 You should see some output similar to:
@@ -23,7 +23,7 @@ You should see some output similar to:
 Member Count : 2
 
 Name   | Id
-------- | -------------------------------------------------------------------
-locator | test-javaclient(locator:532579:locator)<ec><v0>:41000 [Coordinator]
-server | test-javaclient(server:534075)<v1>:41001
+------- | -------------------------------------------------------------
+locator | 172.30.1.2(locator:25006:locator)<ec><v0>:41000 [Coordinator]
+server  | 172.30.1.2(server:25152)<v1>:41001
 ```

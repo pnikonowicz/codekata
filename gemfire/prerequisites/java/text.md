@@ -1,4 +1,4 @@
-# java
+# Install Java
 
 First we will install java 8. We could use other versions, but java 8 works just fine.
 

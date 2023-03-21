@@ -1,23 +1,17 @@
-# add data to regions with client
+# Add Data to Regions with gfsh
 
+So far we have done the following:
+* started a cluster
+* created a region
 
-Adding data using a cli isn't the only way that we can enter data into a region. There are a lot of ways,
-one of the more popular is to use a GemFire client. We just so happen to have a small client application here. 
-
-```plain
-cat /root/client.java
-```{{exec}
-
-Should be simple enough, we just connect to the cluster and insert some data. Let's run it. 
+It's time to add some data. Adding data using gfsh is just as simple as everything else we've done so far. 
 
 ```plain
-javac /root/client.java && java Client
-```{{exec}}
+./gemfire/bin/gfsh -e 'connect' -e 'put --key=my_key --value=my_value --region=demo'
+```
 
-Now, if we want to see all of the keys that our region contains we can do so with a simple query:
+And that's it! Feel free to add as much data as you want. If you wan to see the data, that's easy as well.
 
 ```plain
-./gemfire/bin/gfsh -e 'connect --name=locator' -e 'query --query="select * from /demo"'
-```{{exec}}
-
-
+./gemfire/bin/gfsh -e 'connect' -e 'get --key=my_key --region=demo'
+```

@@ -1,11 +1,13 @@
-# gemfire
+# Download GemFire
 
 Now we will download GemFire from TanzuNet using the pivnet-cli.
 
 It is assumed that you have already done the following:
-* Create an account on https://network.tanzu.vmware.com/
-* Sign the EULA for GemFire at https://network.tanzu.vmware.com/products/pivotal-gemfire/
+* Created an account on https://network.tanzu.vmware.com/
+* Signed the EULA for GemFire at https://network.tanzu.vmware.com/products/pivotal-gemfire/
 * Retrieve your `Legacy API token` from: https://network.tanzu.vmware.com/users/dashboard/edit-profile
+
+__________________________________
 
 With the `Legacy API token` we can login to TanzuNet using the pivnet-cli that we have already installed.
 

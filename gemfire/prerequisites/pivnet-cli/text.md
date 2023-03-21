@@ -1,8 +1,8 @@
-# install pivnet-cli
+# Install pivnet-cli
 
 The pivnet cli allows you to access products from [tanz-net](https://network.tanzu.vmware.com/). 
 
-First, download the cli from GitHub
+First, download the cli from GitHub.
 
 ```plain
 wget https://github.com/pivotal-cf/pivnet-cli/releases/download/v3.0.1/pivnet-linux-amd64-3.0.1
@@ -18,6 +18,6 @@ chmod 766 pivnet
 Now lets make sure it's working ok
 
 ```plain
-./pivnet
+./pivnet --version
 ```{{exec}}
 

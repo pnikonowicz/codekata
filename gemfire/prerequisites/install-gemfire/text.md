@@ -1,4 +1,4 @@
-# gemfire
+# Install GemFire
 
 Now we will install GemFire from TanzuNet using the pivnet-cli.
 
@@ -15,5 +15,5 @@ mv vmware-gemfire-* gemfire
 And then test to make sure that we can access Gfsh. Gfsh is the main tool we will use to create members and add regions to our cluster. 
 
 ```plain
-./gemfire/bin/gfsh -e help
+./gemfire/bin/gfsh -e version
 ```{{exec}}
