@@ -5,7 +5,7 @@ First we will install java 8. We could use other versions, but java 8 works just
 <br>
 
 ```plain
-apt install -y openjdk-8-jre-headless
+apt install -y openjdk-8-jdk-headless
 ```{{exec}}
 
 And set the JAVA_HOME environment variable

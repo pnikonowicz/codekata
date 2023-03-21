@@ -1,7 +1,7 @@
-# create regions
+# Create Regions
 
 Now that a GemFire cluster is running we should want to do something with it. One of the more common
-uses for GemFire is for it to store data. In order to do that, we need to specify where data goes. 
+uses for GemFire is to store data. In order to do that, we need to specify where data goes. 
 And for that, we introduce regions. Let's create some regions now.
 
 ```plain

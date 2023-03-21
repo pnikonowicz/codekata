@@ -6,7 +6,7 @@ one of the more popular is to use a GemFire client. We just so happen to have a 
 
 ```plain
 cat /root/client.java
-```{{exec}
+```{{exec}}
 
 Should be simple enough, we just connect to the cluster and insert some data. Let's run it. 
 

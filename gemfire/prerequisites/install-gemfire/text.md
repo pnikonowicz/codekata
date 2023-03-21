@@ -1,10 +1,6 @@
 # Install GemFire
 
-Now we will install GemFire from TanzuNet using the pivnet-cli.
-
-We only need to do a few things here in order to install GemFire
-
-First, we need to untar the file that we got from TanzuNet
+We only need to do a few things here in order to install GemFire.
 
 ```plain
 tar xzvf vmware-gemfire-*.tgz

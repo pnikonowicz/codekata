@@ -8,7 +8,7 @@
     },
     "steps": [
       {
-        "title": "Prerequisites: install java",
+        "title": "Prerequisites: Install Java",
         "text": "prerequisites/java/text.md"
       },
       {
@@ -24,25 +24,21 @@
         "text": "prerequisites/install-gemfire/text.md"
       },
       {
-        "title": "Start GemFire cluster",
+        "title": "Start GemFire Cluster",
         "text": "start-gemfire/text.md"
       },
       {
-        "title": "Create GemFire regions",
+        "title": "Create GemFire Regions",
         "text": "create-regions/text.md"
       },
       {
-      "title": "Add data to regions with gfsh",
+      "title": "Add Data to Regions with gfsh",
       "text": "add-data-to-regions-with-gfsh/text.md"
-      },
-      {
-        "title": "Add data to regions with client",
-        "text": "add-data-to-regions-with-client/text.md"
       }
     ],
     "assets": {
       "host01": [
-        {"file": "client.java", "target": "/root", "chmod": "+w"}
+        {"file": "Client.java", "target": "/root", "chmod": "+w"}
       ]
     },
     "finish": {
