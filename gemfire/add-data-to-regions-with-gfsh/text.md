@@ -17,7 +17,7 @@ And that's it! Feel free to add as much data as you want. If you wan to see the 
 ```{{exec}}
 
 
-Or if we want to see all of the keys that our region contains we can do so with a simple query
+Or if we want to see all of the values that our region contains we can do so with a simple query
 
 ```plain
 ./gemfire/bin/gfsh -e 'connect' -e 'query --query="select * from /demo"'
