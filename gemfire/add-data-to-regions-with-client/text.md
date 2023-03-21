@@ -14,10 +14,6 @@ Should be simple enough, we just connect to the cluster and insert some data. Le
 javac /root/client.java && java Client
 ```{{exec}}
 
-Now, if we want to see all of the keys that our region contains we can do so with a simple query:
 
-```plain
-./gemfire/bin/gfsh -e 'connect' -e 'query --query="select * from /demo"'
-```{{exec}}
 
 
