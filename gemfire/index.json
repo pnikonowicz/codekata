@@ -26,8 +26,21 @@
       {
         "title": "start gemfire cluster",
         "text": "start-gemfire/text.md"
+      },
+      {
+        "title": "create gemfire regions",
+        "text": "create-regions/text.md"
+      },
+      {
+      "title": "add data to regions with gfsh",
+      "text": "add-data-to-regions-with-gfsh/text.md"
       }
     ],
+    "assets": {
+      "host01": [
+        {"file": "client.java", "target": "/root", "chmod": "+w"}
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
